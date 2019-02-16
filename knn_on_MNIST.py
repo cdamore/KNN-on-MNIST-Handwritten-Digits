@@ -75,8 +75,6 @@ def knn(x_train, y_train, x_test):
 
 
 mnist = read_data_sets('data', one_hot=False)
-result = [OrderedDict(first_name='Insert your First name here',
-          last_name='Insert your Last name here')]
 
 (x_train, y_train) = (mnist.train._images, mnist.train._labels)
 (x_valid, y_valid) = (mnist.test._images, mnist.test.labels)
